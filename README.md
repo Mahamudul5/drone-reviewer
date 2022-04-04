@@ -2,12 +2,12 @@
 
  LiveSite Link:(https://drone-reviewer.netlify.app/).
 
-*I create roouter for Navigate.
-*Create a database in json.
-*display reviews from data.
-*create a blog component and publish two blog.
-*display only three reviews in home page.
-*create 404 page for worng quary.
+- I create roouter for Navigate. 
+- Create a database in json.
+- display reviews from data.
+- create a blog component and publish two blog.
+- display only three reviews in home page.
+- create 404 page for worng quary.
 
 In the project directory, you can run:
 
