@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "bilash",
+        "comments": "this product is so beautiful.i like it",
+        "rating": "5-star"
+    },
+    {
+        "id": 2,
+        "name": "jonh",
+        "comments": "this is good.camera quality could be better",
+        "rating": "4.5-star"
+    },
+    {
+        "id": 3,
+        "name": "mike",
+        "comments": "so pretty. i make my short flim with this.",
+        "rating": "5-star"
+    },
+    {
+        "id": 4,
+        "name": "stephen",
+        "comments": "not so good.Facing problems with controling.",
+        "rating": "2-star"
+    },
+    {
+        "id": 5,
+        "name": "sofia",
+        "comments": "Awasome product.I am falling love with it.",
+        "rating": "5-star"
+    },
+    {
+        "id": 6,
+        "name": "Amir",
+        "comments": "build qulity is so good . ",
+        "rating": "5-star"
+    }
+]
