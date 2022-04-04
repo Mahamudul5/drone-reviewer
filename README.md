@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# Drone Reviewer
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+*I create roouter for Navigate.
+*Create a database in json.
+*display reviews from data.
+*create a blog component and publish two blog.
+*display only three reviews in home page.
+*create 404 page for worng quary.
 
 In the project directory, you can run:
 
