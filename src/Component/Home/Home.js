@@ -26,6 +26,7 @@ const Home = () => {
                     reviews.map(review => <Review key={review.id} reviews={review}></Review>).slice(0, 3)
                 }
             </div>
+            <br />
             <Link className='showAll' to='/Reviews'>see all</Link>
         </div>
 
