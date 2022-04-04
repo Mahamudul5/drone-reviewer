@@ -1,0 +1,13 @@
+.blog-div {
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.blog-div p {
+    margin: auto;
+    color: gray;
+}
+
+.blog-div p:hover {
+    color: orange;
+}
