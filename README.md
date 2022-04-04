@@ -1,6 +1,6 @@
 # Drone Reviewer
 
- LiveSite Link:(https://app.netlify.com/sites/drone-reviewer/settings/domain).
+ LiveSite Link:(https://drone-reviewer.netlify.app/).
 
 *I create roouter for Navigate.
 *Create a database in json.
