@@ -46,28 +46,25 @@ const Dashboard = () => {
             <h2>Our business summary</h2>
             <div className='cheart'>
                 <div>
+                    <h2>month vs sell</h2>
                     <LineChart width={300} height={300} data={data}>
                         <XAxis dataKey="month"></XAxis>
                         <Tooltip></Tooltip>
                         <YAxis dataKey="sell"></YAxis>
                         <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
-                        <Line type="monotone" dataKey="investment" stroke="#8884d8" />
-                        <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
+                        <Line type="monotone" dataKey="month" stroke="#FFFF00" />
                         <Line type="monotone" dataKey="sell" stroke="#82ca9f" />
                     </LineChart>
                 </div>
                 <div>
+                    <h2>investment vs revenue</h2>
                     <BarChart width={500} height={250} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="name" />
                         <YAxis />
                         <Tooltip />
-
-                        <Bar dataKey="sell" fill="#8884d8" />
                         <Bar dataKey="investment" fill="#8884d8" />
                         <Bar dataKey="revenue" fill="#82ca9d" />
-                        <Bar dataKey="month" fill="#82ca9d" />
-
                     </BarChart>
                 </div>
 
