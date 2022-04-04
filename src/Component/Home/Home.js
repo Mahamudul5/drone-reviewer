@@ -1,7 +1,9 @@
-import React from 'react';
+
+import useReviews from '../../Hooks/useReviews';
 import './Home.css'
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
     return (
         <div>
             <div className='home'>
@@ -13,7 +15,7 @@ const Home = () => {
                 </div>
                 <img src="./images/drone.jpg" alt="" />
             </div>
-            <h1>Our Customer Reviews:</h1>
+            <h1>Our Customer Reviews:({reviews.length})</h1>
         </div>
 
     );
