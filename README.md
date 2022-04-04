@@ -1,6 +1,6 @@
 # Drone Reviewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ LiveSite Link:(https://app.netlify.com/sites/drone-reviewer/settings/domain).
 
 *I create roouter for Navigate.
 *Create a database in json.
