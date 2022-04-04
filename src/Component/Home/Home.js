@@ -1,9 +1,13 @@
 
 import useReviews from '../../Hooks/useReviews';
+import Review from '../Review/Review';
 import './Home.css'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
-    const [reviews, setReviews] = useReviews();
+    const [reviews] = useReviews();
+
+
     return (
         <div>
             <div className='home'>
@@ -16,6 +20,13 @@ const Home = () => {
                 <img src="./images/drone.jpg" alt="" />
             </div>
             <h1>Our Customer Reviews:({reviews.length})</h1>
+
+            <div className='display-review'>
+                {
+                    reviews.map(review => <Review key={review.id} reviews={review}></Review>).slice(0, 3)
+                }
+            </div>
+            <Link className='showAll' to='/Reviews'>see all</Link>
         </div>
 
     );

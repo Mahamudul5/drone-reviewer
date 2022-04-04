@@ -2,25 +2,25 @@
     {
         "id": 1,
         "name": "bilash",
-        "comments": "this product is so beautiful.i like it",
+        "comments": "This product is so beautiful.I like it.Its make me happy.",
         "rating": "5-star"
     },
     {
         "id": 2,
         "name": "jonh",
-        "comments": "this is good.camera quality could be better",
+        "comments": "This is good.Camera quality could be better.Without camera quality everyyhing is okay.",
         "rating": "4.5-star"
     },
     {
         "id": 3,
         "name": "mike",
-        "comments": "so pretty. i make my short flim with this.",
+        "comments": "So pretty.I make my short flim with this.It's very much professional and user friendly.",
         "rating": "5-star"
     },
     {
         "id": 4,
         "name": "stephen",
-        "comments": "not so good.Facing problems with controling.",
+        "comments": "Not so good.Facing problems with controling.Joy stick does not work properly.Button are too cheap.",
         "rating": "2-star"
     },
     {
@@ -32,7 +32,7 @@
     {
         "id": 6,
         "name": "Amir",
-        "comments": "build qulity is so good . ",
+        "comments": "build qulity is so good.In this budge dji is better then any other brand in the world. ",
         "rating": "5-star"
     }
 ]
